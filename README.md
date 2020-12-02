@@ -31,7 +31,7 @@ git clone https://github.com/koni0626/samurai.git
 # サンプルプログラムの実行
 ```
 cd /home/konishi/samurai/SamurAI-Dig-Here-2020-21/manager
-./manager ../samples/sample.dighere ../samurai/samurai.sh ../samurai/dog.sh　../samurai/samurai.sh ../samurai/dog.sh
+./manager ../samples/sample.dighere ../samurai/samurai.sh ../samurai/dog.sh　../samurai/samurai.sh ../samurai/dog.sh　> ../samples/test.dighere
 ```
 上記のmanagerコマンドを実行すると、プレイヤー1,プレイヤー2、ともに同じプログラムで対戦します。
 ../samples/sample.dighereはマップの設定ファイルです。
