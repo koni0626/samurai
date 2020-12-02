@@ -12,14 +12,15 @@ if __name__ == '__main__':
     
 
     gameInfo = GameInfo()
-    gameInfo.read_game_info()
 
-    for step in gameInfo.max_step:
-        # とりあえず乱数で行動を選択している
-        action = random.randint(0, 7)
-        # 出力
-        print(action)
-
-        # 次のステップの情報を読み込む
+    step = 0
+    while True:
         gameInfo.read_game_info()
         gameInfo.dump(log_file)
+        action = random.randint(0, 7)
+        # 何もしない
+        print(-1)
+
+        step += 1
+        if step >= gameInfo.max_step:
+            break

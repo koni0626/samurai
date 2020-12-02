@@ -1,3 +1,3 @@
 #! /bin/bash
 
-python3 ../mysrc/dog.py
+python3 ../samurai/dog.py

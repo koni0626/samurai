@@ -1,3 +1,3 @@
 #! /bin/bash
 
-python3 ../mysrc/samurai.py
+python3 ../samurai/samurai.py
