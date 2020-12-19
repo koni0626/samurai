@@ -63,7 +63,7 @@ dog.pyを起動するためのシェルスクリプトです。
 # 実行の仕方
 
 ```
-./manager ../samples/sample.dighere ../samurai/samurai.sh ../samurai/samurai.sh　../samurai/dog.sh ../samurai/dog.sh > ../samples/test.dighere
+./manager ../samples/sample.dighere ../samurai/samurai.sh ../samurai/samurai.sh ../samurai/dog.sh ../samurai/dog.sh> ../samples/test.dighere
 ```
 を実行する。
 実行すると、../samples/test.dighereにログが吐かれる。
